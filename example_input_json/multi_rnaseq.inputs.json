@@ -18,7 +18,7 @@
     "salmon_index/seq.bin",
     "salmon_index/versionInfo.json"
   ],
-  "run_multi_rnaseq.geneMap": "gencode.v37.basic.annotation.gtf.gz",
+  "run_multi_rnaseq.geneMap": "gencode.v37.basic.annotation.gtf",
   "run_multi_rnaseq.gcBias": 0,
   "run_multi_rnaseq.seqBias": 0,
   "run_multi_rnaseq.fastqs": [
