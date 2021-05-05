@@ -1,0 +1,36 @@
+{
+  "run_multi_rnaseq.docker_fastqc": "biocontainers/fastqc:v0.11.9_cv8",
+  "run_multi_rnaseq.docker_salmon": "combinelab/salmon:1.4.0",
+  "run_multi_rnaseq.run_salmon.index": [
+    "salmon_index/complete_ref_lens.bin",
+    "salmon_index/ctable.bin",
+    "salmon_index/ctg_offsets.bin",
+    "salmon_index/duplicate_clusters.tsv",
+    "salmon_index/info.json",
+    "salmon_index/mphf.bin",
+    "salmon_index/pos.bin",
+    "salmon_index/pre_indexing.log",
+    "salmon_index/rank.bin",
+    "salmon_index/refAccumLengths.bin",
+    "salmon_index/ref_indexing.log",
+    "salmon_index/reflengths.bin",
+    "salmon_index/refseq.bin",
+    "salmon_index/seq.bin",
+    "salmon_index/versionInfo.json"
+  ],
+  "run_multi_rnaseq.geneMap": "gencode.v37.basic.annotation.gtf.gz",
+  "run_multi_rnaseq.gcBias": 0,
+  "run_multi_rnaseq.seqBias": 0,
+  "run_multi_rnaseq.fastqs": [
+    {
+      "fastq1":"Data/A_1.fq.gz",
+      "fastq2":"Data/A_2.fq.gz",
+      "prefix":"A"
+    },
+    {
+      "fastq1":"Data/B_1.fq.gz",
+      "fastq2":"Data/B_2.fq.gz",
+      "prefix":"B"
+    }
+  ]
+}
